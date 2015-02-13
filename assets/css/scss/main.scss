@@ -1,0 +1,67 @@
+/*---------------------------------------------------------------------------*/
+/* CSS Architecture */
+/*---------------------------------------------------------------------------*/
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Variáveis de cores e Breakpoints.
+
+ *
+ * TOOLS
+ * Fonts............Font-face.
+ * Bourbon...............Sass Framework.
+ * Jeet...............Sistema de grid responsivo.
+
+ *
+ * GENERIC
+ * Normalize.css........Normalize Reset.
+ * Box-sizing...........`box-sizing` padrão.
+
+ *
+ * BASE
+ * Base.................Estilos padrão (HTML element).
+
+ *
+ * OBJECTS
+ * Wrappers.............Wrappers e Rows.
+
+ *
+ * COMPONENTS
+ * Layout ******** CSS Starter
+ */
+
+
+/**
+ * #SETTINGS
+ */
+@import "settings/global";
+
+/**
+ * #TOOLS
+ */
+@import "tools/font-face";
+@import "bourbon";
+@import "tools/jeet/index";
+
+/**
+ * #GENERIC
+ */
+@import "generic/box-sizing";
+@import "generic/normalize";
+
+/**
+ * #BASE
+ */
+@import "base/base";
+
+/**
+ * #OBJECTS
+ */
+@import "objects/wrapper";
+
+/**
+ * #COMPONENTS
+ */
+@import "components/layout";

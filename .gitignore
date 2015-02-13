@@ -1,0 +1,11 @@
+# Ignorar arquivos específicos
+.DS_Store
+.Trashes
+robots.txt
+
+# Ignorar todos os diretórios e arquivos em um diretório.
+node_modules/**/*
+.sass-cache/**/*
+components/**/*
+bower_components/**/*
+/nbproject/private/
