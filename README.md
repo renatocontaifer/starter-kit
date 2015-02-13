@@ -4,7 +4,9 @@ A simple starter kit for new projects using Gulp, Sass, Bourbon, Jeet and Browse
 
 ## Getting Started ##
 
-`$ npm install gulp -g`
-`$ npm install --save-dev gulp`
-`$ npm install`
-`$ gulp`
+```bash
+$ npm install gulp -g
+$ npm install --save-dev gulp
+$ npm install
+$ gulp
+```
